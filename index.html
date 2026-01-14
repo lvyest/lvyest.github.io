@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김가영 | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.png">
+</head>
+<body>
+    
+    <nav class="floating-nav">
+        <div class="nav-content">
+            <!--<div class="logo">KIM<span class="accent-dot">.</span>KAYOUNG</div>-->            <div class="nav-links">
+                <a href="#projects">프로젝트</a>
+                <a href="#blog">블로그(추가예정)</a>
+                <a href="#contact" class="cta-link">Contact(추가예정)</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <header class="intro-section">
+            <div class="bento-grid">
+                <div class="card hero" data-spotlight>
+                    <div class="hero-content">
+                        <span class="badge-status">
+                            <span class="status-dot"></span> 새로운 기회를 찾고있어요!
+                        </span>
+                        <h1>
+                            사용자에겐 <span class="text-red">매끈하게,</span><br>
+                            코드엔 <span class="text-orange">단단하게.</span><br> 
+                        </h1>
+                        <p>
+                            화려함보다 본질에 집중합니다.<br>
+                            유지보수하기 좋은 코드와 직관적인 UX를 설계하는<br>
+                            프론트엔드 개발자, <span style ="color: black;">김가영</span>입니다.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card profile" data-spotlight>
+                    <div class="profile-inner">
+                        <div class="profile-photo-container">
+                            <img src="img/profile.jpg" alt="Kim Kayoung" class="profile-img-real">
+                        </div>
+                        <div class="profile-text-center">
+                            <h3>김가영</h3>
+                            <p class="role">Frontend Engineer</p>
+                            <a href="./resume.pdf" class="resume-btn" download>
+                                    <span>이력서 다운로드</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                        <polyline points="7 10 12 15 17 10"></polyline>
+                                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                                    </svg>
+                            </a>                        
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card stack" data-spotlight>
+                    <span class="stack-label">기술 스택</span>
+                    <div class="skill-tags-container">
+                        <span class="skill-pill prime">HTML/CSS</span>
+                        <span class="skill-pill prime">React</span>
+                        <span class="skill-pill prime">Node.js</span>
+                        <span class="skill-pill design">Figma</span>
+                        <span class="skill-pill design">Illustrator</span>
+                        <span class="skill-pill">Tailwind CSS</span>
+                        <span class="skill-pill">SCSS</span>
+                        <span class="skill-pill">Git & GitHub</span>
+                    </div>
+                </div>
+
+                <a href="https://github.com/lvyest" target="_blank" class="card social github" data-spotlight>
+                    <div class="social-content">
+                        <svg class="social-icon-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        <span>GitHub</span>
+                    </div>
+                    <span class="arrow-icon">↗</span>
+                <a href="https://ilove-ya.tistory.com/" target="_blank" class="card social tistory" data-spotlight>
+                    <div class="social-content">
+                        <svg class="social-icon-svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 20V4"></path> <path d="M5 4h14"></path>  </svg>
+                        <span>Tistory</span>
+                    </div>
+                    <span class="arrow-icon">↗</span>
+                </a>
+            </div>
+        </header>
+
+        <section id="projects" class="project-section">
+            <div class="section-header">
+                <h2>프로젝트</h2>
+                <!--<p>비즈니스 문제를 기술과 디자인으로 해결한 경험들입니다.</p>-->
+            </div>
+            <div class="project-list">
+              <article class="project-item visible">
+                    <div class="project-thumb">
+                        <img src="img/노련한이력서.png" alt="Mono UI Project" class="thumb-img">
+                        <div class="overlay">상세 확인하기</div>
+                    </div>
+                    <div class="project-details visible">
+                        <div class="tags">
+                            <span class="tag black">HTML</span>
+                            <span class="tag black">CSS</span>
+                            <span class="tag black">React</span>                        
+                        </div>
+                        <h3>노련한 이력서</h3>
+                        <p class="desc">고령자를 위한 이력서 관리 서비스</p>
+                        <p class="sub-desc">
+                                
+                        </p>
+                        <div class="links">
+                            <a href="https://github.com/lvyest/SWUTeam1-Front" class="link-btn">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-item visible">
+                    <div class="project-thumb">
+                        <img src="img/GoalGrove.png" alt="TrendFit Project" class="thumb-img">
+                        <div class="overlay">상세 확인하기</div>
+                    </div>
+                    <div class="project-details">
+                        <div class="tags">             
+                            <span class="tag black">HTML</span>
+                            <span class="tag black">CSS</span>
+                            <span class="tag black">React</span>
+                        </div>
+                        <h3>goalGrove</h3>
+                        <p class="desc">MZ, 그리고 모두를 위한 목표 공유 커뮤니티</p>
+                        <p class="sub-desc">
+                        </p>
+                        <div class="links">
+                            <a href="https://github.com/2024-HERETHON/2024-Herethon-19/tree/main" class="link-btn">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+            
+                <article class="project-item visible">
+                    <div class="project-thumb">
+                        <img src="img/Noti's.png" alt="3D Brand Page" class="thumb-img">
+                        <div class="overlay">상세 확인하기</div>
+                    </div>
+                    <div class="project-details">
+                        <div class="tags">
+                            <span class="tag black">HTML</span>
+                            <span class="tag black">CSS</span>
+                            <span class="tag black">React</span>                       
+                        </div>
+                        <h3>Noti's</h3>
+                        <p class="desc">근무 관리와 눈 건강을 동시에 챙기는 스마트 타이머 서비스</p>
+                        <p class="sub-desc">
+                        </p>
+                        <div class="links">
+                            <a href="https://github.com/HeheHeewon/center-hackathon/tree/one" class="link-btn">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="simple-footer">
+        <div class="footer-content">
+            <div class="logo">KIM<span class="accent-dot">.</span>KAYOUNG</div>
+            <p>© 2026 Kim.Kayoung All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
